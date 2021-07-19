@@ -1,0 +1,125 @@
+* {
+    transition: all .1s ease-in;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'weathericons';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+main {
+    border: 5px solid #2b81ac;
+    background-color: #3399cc;
+}
+
+header,
+section {
+    text-transform: capitalize;
+}
+
+header {
+    margin: 32px 0;
+}
+
+footer {
+    margin: 34px 0 90px 0;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.city__items li {
+    opacity: .6;
+}
+
+.city__items li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.city__items ul:nth-child(1) li:nth-child(1) {
+    background-color: #3399cc;
+}
+
+.city__items ul:nth-child(1) li:nth-child(2) {
+    background-color: #33cccc;
+}
+
+.city__items ul:nth-child(1) li:nth-child(3) {
+    background-color: #996699;
+}
+
+.city__items ul:nth-child(2) li:nth-child(1) {
+    background-color: #c24747;
+}
+
+.city__items ul:nth-child(2) li:nth-child(2) {
+    background-color: #e2674a;
+}
+
+.city__items ul:nth-child(2) li:nth-child(3) {
+    background-color: #ffcc66;
+}
+
+.city__items ul:nth-child(2) li:nth-child(4) {
+    background-color: #99cc99;
+}
+
+.city__items ul:nth-child(3) li:nth-child(1) {
+    background-color: #669999;
+}
+
+.city__items ul:nth-child(3) li:nth-child(2) {
+    background-color: #cc6699;
+}
+
+.city__items ul:nth-child(3) li:nth-child(3) {
+    background-color: #339966;
+}
+
+.city__items ul:last-child {
+    background-color: #666699;
+}
+
+.city__items ul {
+    font-size: 0;
+    text-align: center;
+}
+
+.city__items li {
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 35px 0;
+}
+
+.city__items ul li {
+    display: inline-block;
+    width: 25%;
+}
+
+.city__items ul:last-child li {
+    width: 100%;
+}
+
+.city__items ul:first-child li:first-child,
+.city__items ul:nth-child(3) li:nth-child(2) {
+    width: 50%;
+}
+
+.city__items ul:first-child li p:nth-child(2) {
+    width: fit-content;
+    margin: 0;
+}
